@@ -1,0 +1,378 @@
+/*General page parameters */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.gridContainerindex{
+    display: grid;
+    grid-template-columns: repeat(3,1 fr);
+}
+
+.gridContainerpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brand{
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.toolbar{
+    grid-column: 1/4;
+    background-color: rgba(209, 200, 200, 0.5);
+    border-color: rgba(209, 200, 200, 0.5);
+    border-radius: 30px; 
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    margin: 2%;
+    top: 0px;
+}
+
+.toolbarpage{
+    grid-column: 1/4;
+    background-color: rgba(209, 200, 200, 0.5);
+    border-color: rgba(209, 200, 200, 0.5);
+    border-radius: 30px; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 2%;
+    top: 0px;
+}
+
+.toolbar__menu{
+    background-color: rgba(209, 200, 200, 0.5);
+    border-radius: 30px;
+    display: flexbox;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.toolbar__menu ul li{
+    background-color: rgba(209, 200, 200, 0.5);
+    display: flexbox;
+    display: inline-block;
+    width: 154px;
+    list-style: none;
+    font-size: 18px;
+    font-weight:normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.toolbar__menu a{
+    background-color: rgba(209, 200, 200, 0.5);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+
+.toolbar__menu a:hover{
+    background-color: rgba(65, 57, 57, 0.5);
+    border-radius: 30px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+
+.banner{
+    grid-column: 1/3;
+    display: flex;
+    justify-items: center;
+    
+}
+
+.banner__img{
+    display: flex;
+    max-width: 800px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.indexdescription{
+    grid-column: 3/4;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(209, 200, 200, 0.5);
+    border-color: rgba(209, 200, 200, 0.5);
+    vertical-align: middle;
+    text-align: justify;
+    font-size: 150%;
+    font-weight:normal;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10%;
+    min-width: 350px;
+}
+
+.maps{
+    grid-column: 1/3;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    border-color: rgba(65, 57, 57, 0.5);
+}
+
+.session{
+    grid-column: 1/4;
+    background-color: rgba(65, 57, 57, 0.5);
+    display: flex;
+    border-radius: 20px;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    vertical-align: middle;
+    text-align: justify;
+    justify-items: center;
+    justify-content: center;
+}
+
+.session li{
+    grid-column: 1/4;
+    display: flex;
+    background-color: rgba(65, 57, 57, 0.5);
+    border-radius: 30px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.glasscard1{
+    grid-column: 1/2;
+    display: inline-block;
+    background-color: rgba(65, 57, 57, 0.5);
+    border-radius: 30px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 30px;
+    margin: 30px;
+}
+
+.glasscard2{
+    grid-column: 2/3;
+    display: inline-block;
+    background-color: rgba(65, 57, 57, 0.5);
+    border-radius: 30px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 30px;
+    margin: 30px;
+}
+.glasscard3{
+    grid-column: 3/4;
+    display: inline-block;
+    background-color: rgba(65, 57, 57, 0.5);
+    border-radius: 30px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 30px;
+    margin: 30px;
+}
+
+.glasscard__img{
+    width: 250px;
+    height: auto;
+    background-color: rgba(65, 57, 57, 0.5);
+    border-radius: 30px;
+    padding: 2%;
+    align-items: center;
+    align-content: center;
+}
+
+.buyerbutton{
+    width: 70px;
+    max-width: 70px;
+    background-color: rgba(65, 57, 57, 0.5);
+    color: white;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+
+.copyright{
+    grid-column: 1/4;
+    display: block;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight:normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.payment{
+    display: flex;
+    padding: 2%;
+    font-size: small;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.terms{
+    grid-column: 1/4;
+    font-size: 15px;
+    font-weight:normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media screen and (max-width: 1100px)
+{
+
+    .gridContainerindex{
+        display: grid;
+        grid-template-columns: repeat(2,1 fr);
+    }
+
+    .toolbar{
+        grid-column: 1/3;
+        background-color: rgba(209, 200, 200, 0.5);
+        border-color: rgba(209, 200, 200, 0.5);
+        display: flex;
+        justify-content: center;
+        position:relative;
+        top: 0px;
+    }
+
+    .toolbar__menu{
+        background-color: rgba(209, 200, 200, 0.5);
+        display: block;
+        justify-content: center;
+        margin: 1%;
+        padding: 1%;
+
+    }
+
+    .toolbar__menu ul li{
+        background-color: rgba(209, 200, 200, 0.5);
+        display: block;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+        font-size: 16px;
+        font-weight:normal;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .toolbar__menu a:hover{
+        border-radius: 22px;
+        padding: 3px;
+    }
+    
+
+    .banner{
+        grid-column: 1/3;
+        display: flex;
+        justify-items: center;  
+    }
+
+    .banner__img{
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px;   
+    }
+
+    .indexdescription{
+        grid-column: 1/3;
+        background-color: rgba(209, 200, 200, 0.5);
+        font-size: 15px;
+        font-weight:normal;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .glasscard1{
+        grid-column: 1/4;
+        min-width: 1fr;
+        display: inline-block;
+        background-color: rgba(65, 57, 57, 0.5);
+        border-radius: 30px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: normal;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        padding: 30px;
+        margin: 30px;
+    }
+    
+    .glasscard2{
+        grid-column: 1/4;
+        display: inline-block;
+        background-color: rgba(65, 57, 57, 0.5);
+        border-radius: 30px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: normal;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        padding: 30px;
+        margin: 30px;
+    }
+    .glasscard3{
+        grid-column: 1/4;
+        display: inline-block;
+        background-color: rgba(65, 57, 57, 0.5);
+        border-radius: 30px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: normal;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        padding: 30px;
+        margin: 30px;
+    }
+
+}
+
