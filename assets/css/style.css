@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .gridContainerindex{
     display: grid;
     grid-template-columns: repeat(3,1 fr);
@@ -25,26 +26,26 @@
 
 .toolbar{
     grid-column: 1/4;
-    background-color: rgba(209, 200, 200, 0.5);
-    border-color: rgba(209, 200, 200, 0.5);
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(173, 172, 172));
     border-radius: 30px; 
     display: flex;
     justify-content: center;
     position: sticky;
     margin: 2%;
     top: 0px;
+    transition: all 0.5s;
 }
 
 .toolbarpage{
     grid-column: 1/4;
-    background-color: rgba(209, 200, 200, 0.5);
-    border-color: rgba(209, 200, 200, 0.5);
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(173, 172, 172));
     border-radius: 30px; 
     display: flex;
     justify-content: center;
     position: relative;
     margin: 2%;
     top: 0px;
+    transition: all 0.5s;
 }
 
 .toolbar__menu{
@@ -54,6 +55,7 @@
     margin: 20px;
     padding: 10px;
     border-radius: 30px;
+    transition: all 0.5s;
 }
 
 .toolbar__menu ul li{
@@ -66,6 +68,7 @@
     font-weight:normal;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+    transition: all 0.5s;
 }
 
 .toolbar__menu a{
@@ -74,23 +77,28 @@
     text-decoration: none;
     color: white;
     overflow: hidden;
+    transition: all 0.5s;
 }
 
 .toolbar__menu a:hover{
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to right,black,rgb(173, 172, 172));
+    transition: all 0.5s;
+    color: black;
+    transform: skew(2);
     border-radius: 30px;
     padding: 4px;
     text-align: center;
     text-decoration: none;
     color: white;
     overflow: hidden;
+    transition: all 0.5s;
 }
 
 .banner{
     grid-column: 1/3;
     display: flex;
     justify-items: center;
-    
+    transition: all 0.5s;
 }
 
 .banner__img{
@@ -98,6 +106,7 @@
     max-width: 800px;
     height: auto;
     border-radius: 30px;
+    transition: all 1s;
 }
 
 .indexdescription{
@@ -106,7 +115,7 @@
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(209, 200, 200, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     border-color: rgba(209, 200, 200, 0.5);
     vertical-align: middle;
     text-align: justify;
@@ -115,6 +124,7 @@
     font-family: 'Bebas Neue', cursive;
     padding: 10%;
     min-width: 600px;
+    transition: all 0.5s;
 }
 
 .maps{
@@ -131,10 +141,9 @@
 
 .session{
     grid-column: 1/4;
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     display: flex;
     border-radius: 20px;
-
     text-align: center;
     text-decoration: none;
     color: black;
@@ -145,12 +154,13 @@
     text-align: justify;
     justify-items: center;
     justify-content: center;
+    transition: all 0.5s;
 }
 
 .session li{
     grid-column: 1/4;
     display: flex;
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     border-radius: 30px;
     padding: 6px;
     text-align: center;
@@ -162,12 +172,13 @@
     font-family: 'Bebas Neue', cursive;
     vertical-align: middle;
     text-align: justify;
+    transition: all 0.5s;
 }
 
 .glasscard1{
     grid-column: 1/2;
     display: inline-block;
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     border-radius: 30px;
     align-content: center;
     align-items: center;
@@ -177,12 +188,13 @@
     font-family: 'Bebas Neue', cursive;
     padding: 30px;
     margin: 30px;
+    transition: all 0.5s;
 }
 
 .glasscard2{
     grid-column: 2/3;
     display: inline-block;
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     border-radius: 30px;
     align-content: center;
     align-items: center;
@@ -192,11 +204,12 @@
     font-family: 'Bebas Neue', cursive;
     padding: 30px;
     margin: 30px;
+    transition: all 0.5s;
 }
 .glasscard3{
     grid-column: 3/4;
     display: inline-block;
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     border-radius: 30px;
     align-content: center;
     align-items: center;
@@ -206,16 +219,18 @@
     font-family: 'Bebas Neue', cursive;
     padding: 30px;
     margin: 30px;
+    transition: all 0.5s;
 }
 
 .glasscard__img{
     width: 250px;
     height: auto;
-    background-color: rgba(65, 57, 57, 0.5);
+    background-image: linear-gradient(to left,rgb(146, 139, 139),rgb(173, 172, 172));
     border-radius: 30px;
     padding: 2%;
     align-items: center;
     align-content: center;
+    transition: all 0.5s;
 }
 
 .buyerbutton{
@@ -229,6 +244,7 @@
     font-weight: normal;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+    transition: all 0.5s;
 
 }
 
@@ -272,52 +288,57 @@
 
     .toolbar{
         grid-column: 1/3;
-        background-color: rgba(209, 200, 200, 0.5);
-        border-color: rgba(209, 200, 200, 0.5);
+        background-color: black;
         display: flex;
         justify-content: center;
         position:relative;
         top: 0px;
+        transition: all 0.5s;
     }
 
     .toolbar__menu{
-        background-color: rgba(209, 200, 200, 0.5);
+        background-color: black;
         display: block;
         justify-content: center;
-        margin: 1%;
-        padding: 1%;
-
+        margin: 4%;
+        padding: 4%;
+        transition: all 0.5s;
     }
 
     .toolbar__menu ul li{
-        background-color: rgba(209, 200, 200, 0.5);
+        background-color: black;
         display: block;
         align-items: center;
         width: 100%;
         list-style: none;
-        font-size: 16px;
+        font-size: 14px;
         font-weight:normal;
         text-align: center;
-        border-radius: 20px;
+        border-radius: 18px;
+        transition: all 0.5s;
     }
 
     .toolbar__menu a:hover{
+        transition: all 0.5s;
         border-radius: 22px;
         padding: 3px;
+        transition: all 0.5s;
     }
     
 
     .banner{
         grid-column: 1/3;
         display: flex;
-        justify-items: center;  
+        justify-items: center;
+        transition: all 0.5s;
     }
 
     .banner__img{
         display: flex;
         max-width: 100%;
         height: auto;
-        border-radius: 30px;   
+        border-radius: 30px; 
+        transition: all 0.5s;
     }
 
     .indexdescription{
@@ -329,6 +350,7 @@
         text-align: center;
         font-family: 'Bebas Neue', cursive;
         max-width: 600px;
+        transition: all 0.5s;
     }
 
     .glasscard1{
@@ -345,6 +367,7 @@
         font-family: 'Bebas Neue', cursive;
         padding: 30px;
         margin: 30px;
+        transition: all 0.5s;
     }
     
     .glasscard2{
@@ -360,6 +383,7 @@
         font-family: 'Bebas Neue', cursive;
         padding: 30px;
         margin: 30px;
+        transition: all 0.5s;
     }
     .glasscard3{
         grid-column: 1/4;
@@ -374,6 +398,7 @@
         font-family: 'Bebas Neue', cursive;
         padding: 30px;
         margin: 30px;
+        transition: all 0.5s;
     }
 
 }
